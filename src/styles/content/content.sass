@@ -63,7 +63,8 @@
 
 .info
     background-color: white
-    height: 882px
+    height: 962px
+
 
 .subinfo
     width: 202px
@@ -71,6 +72,7 @@
     display: flex
     flex-wrap: wrap
     padding: 24px 0 0 26px
+    margin-bottom: 52px
 
 .id
     display: flex
@@ -123,7 +125,7 @@
         letter-spacing: normal
         color: #2b2b2b
 
-.email   
+.letter 
     display: flex
     flex-wrap: wrap
     justify-content: flex-start
@@ -138,7 +140,7 @@
         letter-spacing: normal
         color: #2b2b2b
         padding-right: 10px
-    &__email
+    &__letter
         font-family: 'Lato', sans-serif
         font-size: 16px
         font-weight: normal
@@ -147,3 +149,218 @@
         line-height: 1.88
         letter-spacing: normal
         color: #2b2b2b
+
+.last
+    display: flex
+    &__start
+        width: 600px
+
+.account
+    display: flex
+    &__account
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 147px
+        height: 50px
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07)
+        background-color: #ffffff
+        margin-right: 2px
+    &__wallet
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 147px
+        height: 50px
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07)
+        color: white
+        background-color: #2b2b2b
+        margin: 0 2px
+    &__exchange
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 147px
+        height: 50px
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07)
+        color: white
+        background-color: #2b2b2b
+        margin: 0 2px
+    &__margin
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 147px
+        height: 50px
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07)
+        color: white
+        background-color: #2b2b2b
+        margin-left: 2px
+
+.border
+    margin-left: 44px
+
+.lock
+    border: dashed #f0b90b
+    background-color: #fffaec
+    width: 556px
+    height: 102px
+    border-radius: 5px
+    margin-top: 27px
+    &__firstLine
+        margin-bottom: 12px
+    &__secondLine
+        display: flex
+    input
+        width: 432px
+        height: 30px
+        &::placeholder
+            font-family: 'Lato', sans-serif
+            font-size: 13px
+            font-weight: normal
+            font-stretch: normal
+            font-style: normal
+            line-height: 9.42
+            letter-spacing: normal
+            color: #d4a307
+    &__lock
+        background: url('../img/padlock.png') left no-repeat
+        padding-left: 31px
+        text-transform: uppercase
+        font-family: 'Roboto', sans-serif
+        font-size: 12.5px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: 2.52
+        letter-spacing: normal
+        text-align: left
+        color: #d4a307
+    &__button
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 84px
+        height: 30px
+        border-radius: 2px
+        color: white
+        background-color: #d4a307
+        margin-left: 8px
+
+.reject 
+    border: dashed #c3344c
+    background-color: #fff2f2
+    width: 556px
+    height: 102px
+    border-radius: 5px
+    margin-top: 27px
+    &__firstLine
+        margin-bottom: 12px
+    &__secondLine
+        display: flex
+    input
+        width: 432px
+        height: 30px
+        &::placeholder
+            font-family: 'Lato', sans-serif
+            font-size: 13px
+            font-weight: normal
+            font-stretch: normal
+            font-style: normal
+            line-height: 9.42
+            letter-spacing: normal
+            color: #c3344c
+    &__reject 
+        background: url('../img/close.png') left no-repeat
+        padding-left: 31px
+        text-transform: uppercase
+        font-family: 'Roboto', sans-serif
+        font-size: 12.5px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        line-height: 2.52
+        letter-spacing: normal
+        text-align: left
+        color: #c3344c
+    &__button
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 84px
+        height: 30px
+        border-radius: 2px
+        color: white
+        background-color: #c3344c
+        margin-left: 8px
+
+.wrap
+    padding: 14px 16px 9px 16px
+
+.details
+    margin-top: 26px
+    
+        
+.information    
+    display: flex
+    align-items: center
+    height: 58px
+    &__first
+        width: 119px
+        font-family: 'Lato', sans-serif
+        font-size: 14px
+        font-weight: 900
+        font-stretch: normal
+        font-style: normal
+        letter-spacing: normal
+        margin-right: 296px
+    &:nth-child(2n+1)
+        color: black
+        background-color: #f5f6fa
+    &__second
+        font-family: 'Lato', sans-serif
+        font-size: 13px
+        font-weight: normal
+        font-stretch: normal
+        font-style: normal
+        letter-spacing: normal
+        text-align: left
+        color: #2b2b2b
+        
+.buttons
+    display: flex
+    justify-content: flex-end
+    margin-top: 41px
+    &__approve
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 183px
+        height: 38px
+        font-family: 'Lato', sans-serif
+        font-size: 16px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        letter-spacing: normal
+        border-radius: 2px
+        color: #ffffff
+        background-color: #8dc63f
+        cursor: pointer
+    &__reject
+        margin-left: 19px
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 183px
+        height: 38px
+        font-family: 'Lato', sans-serif
+        font-size: 16px
+        font-weight: bold
+        font-stretch: normal
+        font-style: normal
+        letter-spacing: normal
+        border-radius: 2px
+        color: #ffffff
+        background-color: #ea3037
+        cursor: pointer
