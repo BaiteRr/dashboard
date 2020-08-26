@@ -45,16 +45,18 @@
 }
 
 .inform {
+  padding-top: 11px;
+}
+
+.subinform {
   display: flex;
-  position: absolute;
   width: 1572px;
-  top: 99px;
   height: 88px;
   background-color: white;
   justify-content: space-between;
   align-items: center;
 }
-.inform__text {
+.subinform__text {
   width: 235px;
   height: 28px;
   font-family: "Lato", sans-serif;
@@ -63,6 +65,108 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
+  letter-spacing: normal;
+  color: #2b2b2b;
+}
+
+.card {
+  margin: 39px 39px 0 39px;
+}
+
+.info {
+  background-color: white;
+  height: 882px;
+}
+
+.subinfo {
+  width: 202px;
+  height: 112px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 0 0 26px;
+}
+
+.id {
+  display: flex;
+  width: 63px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.id__bold {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+.id__id {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #2b2b2b;
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name__bold {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #2b2b2b;
+  padding-right: 10px;
+}
+.name__name {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #2b2b2b;
+}
+
+.email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.email__bold {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #2b2b2b;
+  padding-right: 10px;
+}
+.email__email {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
   letter-spacing: normal;
   color: #2b2b2b;
 }
